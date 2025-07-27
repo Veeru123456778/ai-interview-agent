@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/core": "^0.3.66",
+    "@langchain/google-genai": "^0.2.15",
+    "@langchain/langgraph": "^0.3.9",
+    "axios": "^1.9.0",
+    "dotenv": "^17.2.0",
+    "easy-speech": "^2.4.0",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "import": "^0.0.6",
+    "langchain": "^0.3.30",
+    "lucide-react": "^0.525.0",
+    "next": "15.3.3",
+    "postcss": "^8.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "24.0.14",
+    "@types/react": "19.1.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4.1.8"
+  }
+}
